@@ -54,7 +54,6 @@ function generateData() {
 function copyOne(id) {
   const text = document.getElementById(id).innerText;
   navigator.clipboard.writeText(text);
-  alert(text + " copied!");
 }
 
 function copyAll() {
@@ -69,5 +68,4 @@ Address: ${document.getElementById("addr").innerText}
 Pincode: ${document.getElementById("pin").innerText}`;
 
   navigator.clipboard.writeText(text);
-  alert("All details copied!");
 }
