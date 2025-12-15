@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Details Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+  <h2>Random Details Generator</h2>
+
+  <p>Mail: <b id="mail">---</b>
+    <button onclick="copyOne('mail')">Copy</button>
+  </p>
+
+  <p>Password: <b id="pass">Santosh@8757#$</b>
+    <button onclick="copyOne('pass')">Copy</button>
+  </p>
+
+  <p>DOB: <b id="dob">---</b>
+    <button onclick="copyOne('dob')">Copy</button>
+  </p>
+
+  <p>First Name: <b id="fname">---</b>
+    <button onclick="copyOne('fname')">Copy</button>
+  </p>
+
+  <p>Last Name: <b id="lname">---</b>
+    <button onclick="copyOne('lname')">Copy</button>
+  </p>
+
+  <p>Govt ID No: <b id="gid">---</b>
+    <button onclick="copyOne('gid')">Copy</button>
+  </p>
+
+  <p>Address: <b id="addr">---</b>
+    <button onclick="copyOne('addr')">Copy</button>
+  </p>
+
+  <p>Pincode: <b id="pin">---</b>
+    <button onclick="copyOne('pin')">Copy</button>
+  </p>
+
+  <button class="generate" onclick="generateData()">Generate</button>
+  <button class="next" onclick="generateData()">NEXT</button>
+  <button class="copyall" onclick="copyAll()">COPY ALL</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
